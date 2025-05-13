@@ -3,7 +3,7 @@
   <project name="nova3308-rk_tee_user" path="external/security/rk_tee_user" revision="main"/>
   <project name="nova3308-u-boot" path="u-boot" revision="main"/>
   <project name="nova3308-lvgl_demo" path="app/lvgl_demo" revision="main"/>
-  <project name="nova3308-rkadk" path="app/rkadk" remote="rk" revision="main"/>
+  <project name="nova3308-rkadk" path="app/rkadk" revision="main"/>
   <project name="nova3308-buildroot" path="buildroot" revision="main">
     <linkfile src="build/envsetup.sh" dest="envsetup.sh"/>
   </project>
