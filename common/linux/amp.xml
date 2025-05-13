@@ -3,7 +3,7 @@
   <project name="nova3308-pisces" path="rtos/bsp/rockchip/pisces" revision="main"/>
   <project name="nova3308-source" path="rtos/third_party/audio/audio_server/source" revision="main"/>
   <project name="nova3308-Rockchip-docs" path="rtos/Rockchip-docs" revision="main"/>
-  <project name="nova3308-rtos" path="rtos/" revision="develop" />
+  <project name="nova3308-rtos" path="rtos/" revision="main" />
   <project name="nova3308-rtthread-apps" path="rtos/applications/rtthread-apps" revision="main"/>
   <project name="nova3308-wearable" path="rtos/applications/wearable" revision="main"/>
   <project name="nova3308-hal" path="external/hal" revision="main">
