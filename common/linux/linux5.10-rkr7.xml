@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="nova3308-rk_tee_user" path="external/security/rk_tee_user" revision="main"/>
+  <project name="nova3308-u-boot" path="u-boot" revision="main"/>
+  <project name="nova3308-lvgl_demo" path="app/lvgl_demo" revision="main"/>
+  <project name="nova3308-rkadk" path="app/rkadk" remote="rk" revision="main"/>
+  <project name="nova3308-buildroot" path="buildroot" revision="main">
+    <linkfile src="build/envsetup.sh" dest="envsetup.sh"/>
+  </project>
+  <project name="nova3308-debian" path="debian" revision="main" clone-depth="1"/>
+  <project name="nova3308-drm-cursor" path="external/drm-cursor" revision="main"/>
+  <project name="nova3308-alsa-config" path="external/alsa-config" revision="main"/>
+  <project name="nova3308-chromium" path="external/chromium" revision="main" clone-depth="1"/>
+  <project name="nova3308-common_algorithm" path="external/common_algorithm" revision="main"/>
+  <project name="nova3308-rk_pcba_test" path="external/rk_pcba_test" revision="main"/>
+  <project name="nova3308-rkscript" path="external/rkscript" revision="main"/>
+  <project name="nova3308-rktoolkit" path="external/rktoolkit" revision="main"/>
+  <project name="nova3308-rkupdate" path="external/rkupdate" revision="main"/>
+  <project name="nova3308-rkwifibt" path="external/rkwifibt" revision="main"/>
+  <project name="nova3308-rkwifibt-app" path="external/rkwifibt-app" revision="main"/>
+  <project name="nova3308-gstreamer-rockchip" path="external/gstreamer-rockchip" revision="main"/>
+  <project name="nova3308-libmali" path="external/libmali" revision="main" clone-depth="1"/>
+  <project name="nova3308-linux-rga" path="external/linux-rga" revision="main"/>
+  <project name="nova3308-recovery" path="external/recovery" revision="main"/>
+  <project name="nova3308-rockchip-test" path="external/rockchip-test" revision="main"/>
+  <project name="nova3308-rockit" path="external/rockit" revision="main"/>
+  <project name="nova3308-bin" path="external/security/bin" revision="main"/>
+  <project name="nova3308-uac_app" path="external/uac_app" revision="main"/>
+  <project name="nova3308-uvc_app" path="external/uvc_app" revision="main"/>
+  <project name="nova3308-tools" path="tools" revision="main" clone-depth="1"/>
+  <project name="nova3308-xserver" path="external/xserver" revision="main"/>
+  <project name="nova3308-librkcrypto" path="external/security/librkcrypto" revision="main"/>
+  <project name="nova3308-kernel" path="kernel" revision="main"/>
+  <project name="nova3308-mpp" path="external/mpp" revision="main"/>
+  <project name="nova3308-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="main"/>
+  <project name="nova3308-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" revision="main"/>
+  <project name="nova3308-rkbin" path="rkbin" revision="main"/>
+</manifest>

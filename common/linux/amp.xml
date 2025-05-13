@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="nova3308-pisces" path="rtos/bsp/rockchip/pisces" revision="main"/>
+  <project name="nova3308-source" path="rtos/third_party/audio/audio_server/source" revision="main"/>
+  <project name="nova3308-Rockchip-docs" path="rtos/Rockchip-docs" revision="main"/>
+  <project name="nova3308-rtos" path="rtos/" revision="develop" />
+  <project name="nova3308-rtthread-apps" path="rtos/applications/rtthread-apps" revision="main"/>
+  <project name="nova3308-wearable" path="rtos/applications/wearable" revision="main"/>
+  <project name="nova3308-hal" path="external/hal" revision="main">
+	<linkfile dest="rtos/bsp/rockchip/common/hal" src="."/>
+  </project>
+  <project name="nova3308-test" path="external/hal/test" revision="main"/>
+  <project name="nova3308-middleware" path="external/hal/middleware" revision="main"/>
+  <project name="nova3308-applications" path="external/hal/applications" revision="main"/>
+  <project name="nova3308-board" path="external/hal/board" revision="main"/>
+  <project name="nova3308-major-x86_64-linux" path="prebuilts/gcc/linux-x86/arm/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux" revision="main"/>
+</manifest>

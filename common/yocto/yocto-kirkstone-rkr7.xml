@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project name="linux/yocto/meta-rockchip" path="yocto/meta-rockchip" revision="91d777c8eb1b133efdc862f69163b01ccd42d7e1" upstream="kirkstone" dest-branch="kirkstone" clone-depth="1"/>
+  <project name="linux/poky" path="yocto/meta-browser" revision="58bed9feef18f841087d9d3dc18e21e20fbc3c0e" upstream="kirkstone/meta-browser" dest-branch="kirkstone/meta-browser" clone-depth="1"/>
+  <project name="linux/poky" path="yocto/meta-clang" revision="2d08d6bf376a1e06c53164fd6283b03ec2309da4" upstream="kirkstone/meta-clang" dest-branch="kirkstone/meta-clang" clone-depth="1"/>
+  <project name="linux/poky" path="yocto/meta-openembedded" revision="79a6f60dabad9e5b0e041efa91379447ef030482" upstream="kirkstone/meta-openembedded" dest-branch="kirkstone/meta-openembedded" clone-depth="1"/>
+  <project name="linux/poky" path="yocto/meta-qt5" revision="ae8a97f79364bed1abc297636f7933d0e35f22be" upstream="kirkstone/meta-qt5" dest-branch="kirkstone/meta-qt5" clone-depth="1"/>
+  <project name="linux/poky" path="yocto/poky" revision="59077aa77b17ca6fdcc4e66d9d8b0c18dc89ecce" upstream="kirkstone/poky" dest-branch="kirkstone/poky" clone-depth="1">
+    <linkfile src="scripts" dest="yocto/scripts"/>
+    <linkfile src="bitbake" dest="yocto/bitbake"/>
+    <linkfile src="meta-poky" dest="yocto/meta-poky"/>
+    <linkfile src=".templateconf" dest="yocto/.templateconf"/>
+    <linkfile src="oe-init-build-env" dest="yocto/oe-init-build-env"/>
+  </project>
+  <project name="linux/build" path="yocto/build/conf" revision="7f6ec4986cc450a4e6af63d8dd4695d55d998448" upstream="kirkstone" dest-branch="kirkstone" clone-depth="1"/>
+
+</manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<project name="nova3308-docs" path="docs" revision="main" clone-depth="1"/>
+<project name="nova3308-cn" path="docs/cn" revision="main" clone-depth="1">
+    <linkfile dest="docs/cn/RK3308/Rockchip_Developer_Guide_Linux_Software_CN.pdf" src="Rockchip_Developer_Guide_Linux_Software_CN.pdf"/>
+</project>
+<project name="nova3308-en" path="docs/en" revision="main" clone-depth="1">
+    <linkfile dest="docs/en/RK3308/Rockchip_Developer_Guide_Linux_Software_EN.pdf" src="Rockchip_Developer_Guide_Linux_Software_EN.pdf"/>
+</project>
+<project name="nova3308-cn-RK3308" path="docs/cn/RK3308" revision="main"/>
+<project name="nova3308-en-RK3308" path="docs/en/RK3308" revision="main"/>
+
+</manifest>

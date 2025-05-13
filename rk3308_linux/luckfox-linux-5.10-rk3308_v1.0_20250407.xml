@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github" fetch="https://github.com/luckfox-eng30"/>
+  <default remote="github" sync-j="4"/>
+
+  <include name="include/rk3308_5.10_doc.xml" />
+  <include name="common/linux/linux5.10-rkr7.xml" />
+  <include name="common/linux/amp.xml" />
+
+  <project name="nova3308-rockchip" path="device/rockchip" revision="main" clone-depth="1">
+    <linkfile src="common/scripts/build.sh" dest="build.sh"/>
+    <linkfile src="common/Makefile" dest="Makefile"/>
+    <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
+  </project>
+  
+</manifest>
